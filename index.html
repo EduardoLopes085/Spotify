@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="Style/reset.css">
+    
+    <link rel="stylesheet" href="Style/style.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+
+<body>
+    
+    <div class="sidebar">
+        <nav class="sidebarNavigation">
+            <div class="logo">
+                <a href="">
+                    <img src="assets/icons/logo-spotify.png" alt="Logo" />
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="library">
+            <div class="libraryContent">
+                <button class="libraryButton">
+                    <span class="fa-solid fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section class="sectionPlaylist">
+                <div class="sectionPlaylistContent">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="sectionPlaylistButton">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+            
+            <div class="accessibility">
+                <a href="">Acessibilidade</a>
+            </div>
+
+            <div class="legal">
+                <a href="">Legal</a>
+            </div>
+            
+            
+            
+            
+            <div class="languages">
+                <button class="languagesButton">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        <div class="mainContainer">
+            <nav class="headerNavigation">
+                <div class="navigation">
+                    <button class="arrowLeft">
+                        <img src="assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrowRight">
+                        <img src="assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                <div class="headerSearch">
+                    <img src="assets/icons/search.png" alt="">
+                    <input id="searchInput" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                
+                <div class="headerLogin">
+                    <div class="subscribe">Inscreva-se</div>
+                    <button class="login">Entrar</button>
+                </div>
+                
+            </nav>
+
+            <div class="playlistContainer">
+                <div id="resultPlaylists">
+                    <div class="playlist">
+                        <h1 id="greeting">Boas vindas</h1>
+                        
+                        <div class="gambiarra">
+                            <h2 class="session">Navegar por todas as seções:</h2>
+
+                            <div class="gambiarraNavigation">
+                                <button class="gambiarraArrowLeft">
+                                    <img src="assets/icons/small-left.png" alt="Seta esquerda">
+                                </button>
+                                <button class="gambiarraArrowRight">
+                                    <img src="assets/icons/small-right.png" alt="Seta direita">
+                                </button>
+                            </div>
+
+
+                        </div>
+                    
+                    
+                    
+                    </div>
+                    
+
+                </div>
+
+                
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="imgContainer">
+                            <img src="assets/playlist/5.jpeg" alt="">
+                        </div>
+                    
+                        <div class="cardText">
+                            <h3>Best Mode</h3>
+                            <p>playlist para o treino</p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="imgContainer">
+                            <img src="assets/playlist/8.jpeg" alt="">
+                        </div>
+                    
+                        <div class="cardText">
+                            <h3>Pagodeira</h3>
+                            <p>playlist para o churrasco</p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="imgContainer">
+                            <img src="assets/playlist/10.jpeg" alt="">
+                        </div>
+                    
+                        <div class="cardText">
+                            <h3>MPB</h3>
+                            <p>Playlist </p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="imgContainer">
+                            <img src="assets/playlist/14.jpeg" alt="">
+                        </div>
+                    
+                        <div class="cardText">
+                            <h3>Chill</h3>
+                            <p>Relaxe com essa playlist</p>
+                    
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="imgContainer">
+                            <img src="assets/playlist/2.png" alt="">
+                        </div>
+                    
+                        <div class="cardText">
+                            <h3>POP</h3>
+                            <p>Viva o sucesso dos momentos</p>
+                    
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+            
+            
+            </div>
+    </main>
+    
+    
+    <footer class="disclaimerPremium">
+        <div class="text">
+            <p class="disclaimerPremiumTitle"> Testar o Premium de graça </p>
+            <p class="disclaimerPremiumSubtitle"> Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito. </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
+</body>
+
+</html>
